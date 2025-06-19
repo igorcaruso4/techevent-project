@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+
+    <title>TechFest 2025</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="header-container">
+            <nav class="navbar">
+                <a href="#">Home</a>
+                <a href="#event">Event</a>
+                <a href="#registration">Registration</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home">
+            <h1>TECHFEST 2025</h1>
+            <h3>The biggest tech event of the year!</h3>
+        </section>
+
+        <section id="event">
+            <h2>The Event</h2>
+
+            <img src="img/lanhouse.png" alt="Event illustration"><br><br>
+
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, ducimus repellat voluptatum
+                dignissimosfugit facilis asperiores at quam perspiciatis voluptas, ullam libero error. Dolores
+                consectetur
+                autemnemo nesciunt quis assumenda. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore
+                doloremque in eaque eius tempora.
+                Accusantium unde adipisci porro suscipit labore iusto harum rerum dolores earum, quae eligendi ex
+                consequuntur cupiditate!
+            </p>
+
+        </section>
+
+        <section id="registration">
+            <h2>Registration</h2>
+            <div class="reg">
+                <form action="" method="get">
+                    <label for="name">Full Name:</label><br>
+                    <input type="text" id="name" name="name" required><br><br>
+
+                    <label for="email">E-Mail:</label><br>
+                    <input type="email" id="email" name="email" required><br><br>
+
+                    <label for="gender">Gender:</label><br>
+                    <select id="gender" name="gender">
+                        <option value="dontspecify">&nbsp;</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select><br><br>
+
+                    <label for="age">Age:</label><br>
+                    <input type="number" id="age" name="age" min="18" max="99" required><br><br>
+
+                    <button type="submit">Register</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 TechFest - All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

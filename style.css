@@ -1,0 +1,154 @@
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 12rem;
+}
+
+:root {
+    --bg: rgba(0, 0, 0, 0.5);
+    --blue: #090979;
+}
+
+* {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: 0.2s linear;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+body {
+    line-height: 1.6;
+    color: #ffffff;
+    background: #020024;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 50%, rgba(0, 149, 179, 1) 100%);
+}
+
+section {
+    padding: 3rem 2rem;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 40rem;
+    margin-bottom: 40rem;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem;
+    background-color: var(--bg);
+    z-index: 1000;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-right: 3rem;
+}
+
+.navbar a {
+    color: #ffffff;
+    font-size: 1.8rem;
+    padding: 1rem;
+    text-align: center;
+    font-weight: 700;
+
+}
+
+.navbar a:hover {
+    color: #ffffff;
+    border-bottom: 0.01rem solid #ffffff;
+    transform: scale(1.1);
+    font-size: 1.8rem;
+}
+
+#home h1 {
+    font-size: 8rem;
+}
+
+#home h3 {
+    font-size: 2.5rem;
+}
+
+#event h2 {
+    border-bottom: var(--main-color);
+}
+
+#event p {
+    margin: 3rem auto;
+    font-size: 2rem;
+    max-width: 65rem;
+    text-align: center;
+    display: block;
+}
+
+h2 {
+    font-size: 5rem;
+    margin-bottom: 2.5rem;
+}
+
+footer p {
+    padding: 0.5rem 0.5rem;
+    background-color: var(--bg);
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.reg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reg label {
+    font-size: 3rem;
+}
+
+.reg input {
+    color: #090979;
+    font-weight: 600;
+    font-size: 2rem;
+    text-align: center;
+    width: 40rem;
+    max-width: 90%;
+    box-sizing: border-box;
+}
+
+.reg select {
+    color: var(--blue);
+    font-weight: 600;
+    font-size: 2rem;
+    cursor: pointer;
+    width: 40rem;
+    max-width: 90%;
+    box-sizing: border-box;
+}
+
+.reg option {
+    color: var(--blue);
+    font-weight: 600;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.reg button {
+    color: var(--blue);
+    font-weight: 900;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    padding: 1rem 4rem 1rem 4rem;
+    font-size: 3rem;
+    cursor: pointer;
+    width: 40rem;
+    max-width: 90%;
+    box-sizing: border-box;
+}
+
+.reg button:hover {
+    transform: scale(1.05);
+}
